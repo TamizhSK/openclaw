@@ -1,0 +1,67 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #1a1a1a; /* Dark background, similar to Cursor */
+    color: #e0e0e0; /* Light text */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem;
+    padding: 3rem;
+    background-color: #2a2a2a; /* Slightly lighter dark for content area */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    border: 1px solid #3a3a3a;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #00e676; /* Accent color for the name, green like a terminal */
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    color: #a0a0a0;
+    margin-top: 0;
+}
+
+main p {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.emoji {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.85rem;
+    color: #707070;
+}
+
+a {
+    color: #00e676;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
