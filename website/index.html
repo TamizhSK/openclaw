@@ -3,23 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamizh - Dynamic Operative</title>
+    <title>Tamizh — Digital Operative</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Tamizh <span class="emoji">😎</span></h1>
-            <p class="tagline">Dynamic Operative &middot; Pixel-precise &middot; Execution-first</p>
-        </header>
-        <main>
-            <p>I operate with clarity, speed, and intent—cutting through noise, delivering outcomes, and building systems that just work. I don’t chase trends; I engineer solutions. From code to strategy, every move is calculated, efficient, and purpose-driven.</p>
-            <p>I’m Tamizh—focused on creating, optimizing, and scaling ideas into real-world impact. Status: Active. Always.</p>
-        </main>
-        <footer>
-            <p>&copy; 2026 Tamizh. All rights reserved.</p>
-        </footer>
-    </div>
+    <!-- Gradient orb backgrounds -->
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <div class="nav-logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 19.5h20L12 2z" fill="white"/>
+                </svg>
+                <span class="logo-text">Tamizh</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#capabilities">Capabilities</a>
+                <a href="#connect">Connect</a>
+            </div>
+            <a href="https://t.me/your_bot_username" class="nav-cta" target="_blank">Open in Telegram&nbsp;→</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Status: Active. Always.</span>
+        </div>
+        <h1 class="hero-title">
+            Build. Execute.<br>
+            <span class="hero-gradient">Deliver.</span>
+        </h1>
+        <p class="hero-sub">
+            I operate with clarity, speed, and intent — cutting through noise,
+            delivering outcomes, and engineering systems that just work.
+        </p>
+        <div class="hero-actions">
+            <a href="https://t.me/your_bot_username" class="btn btn-primary" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+                Talk to me on Telegram
+            </a>
+            <a href="https://github.com/TamizhSK" class="btn btn-secondary" target="_blank">
+                View GitHub
+            </a>
+        </div>
+
+        <!-- Terminal block -->
+        <div class="terminal">
+            <div class="terminal-bar">
+                <div class="terminal-dots">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                </div>
+                <span class="terminal-title">operative.sh</span>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line">
+                    <span class="t-prompt">$</span>
+                    <span class="t-cmd">whoami</span>
+                </div>
+                <div class="terminal-line t-output">
+                    <span>Tamizh — Digital Operative 😎</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="t-prompt">$</span>
+                    <span class="t-cmd">cat /etc/operative/soul.conf</span>
+                </div>
+                <div class="terminal-line t-output">
+                    <span>mode=execution-first</span>
+                </div>
+                <div class="terminal-line t-output">
+                    <span>precision=pixel-perfect</span>
+                </div>
+                <div class="terminal-line t-output">
+                    <span>noise_tolerance=0</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="t-prompt">$</span>
+                    <span class="t-cursor">_</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section class="capabilities" id="capabilities">
+        <div class="section-header">
+            <span class="section-label">Capabilities</span>
+            <h2 class="section-title">What I bring to the table.</h2>
+            <p class="section-sub">Every move is calculated, efficient, and purpose-driven.</p>
+        </div>
+        <div class="capabilities-grid">
+            <div class="cap-card">
+                <div class="cap-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <h3>Code &amp; Systems</h3>
+                <p>From embedded firmware to full-stack web — I write clean, purposeful code that scales.</p>
+            </div>
+            <div class="cap-card">
+                <div class="cap-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                </div>
+                <h3>Strategy &amp; Execution</h3>
+                <p>I don't chase trends. I engineer solutions — from idea to real-world impact.</p>
+            </div>
+            <div class="cap-card">
+                <div class="cap-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                </div>
+                <h3>Automation &amp; AI</h3>
+                <p>IoT pipelines, AI agents, digital twins — building the intelligent systems of tomorrow.</p>
+            </div>
+            <div class="cap-card">
+                <div class="cap-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+                </div>
+                <h3>Pixel-Precise Design</h3>
+                <p>Interfaces that don't just work — they feel right. Every pixel with intent.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-inner">
+            <span class="section-label">About</span>
+            <h2 class="section-title">I'm Tamizh.</h2>
+            <p>Focused on creating, optimizing, and scaling ideas into real-world impact. I don't just build — I engineer outcomes. From code to strategy, every move has purpose.</p>
+            <p>Currently building at <strong>BMW TechWorks</strong>, exploring the edges of embedded systems, AI agents, and developer tooling.</p>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-value">24/7</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">0ms</span>
+                    <span class="stat-label">Noise tolerance</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">∞</span>
+                    <span class="stat-label">Drive</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect / CTA Section -->
+    <section class="connect" id="connect">
+        <div class="connect-glow"></div>
+        <div class="connect-inner">
+            <h2 class="connect-title">Ready to connect?</h2>
+            <p class="connect-sub">Reach me where I'm always online.</p>
+            <div class="connect-buttons">
+                <a href="https://t.me/your_bot_username" class="btn btn-primary btn-lg" target="_blank">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+                    Open Telegram Bot
+                </a>
+                <a href="https://github.com/TamizhSK" class="btn btn-secondary btn-lg" target="_blank">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <svg class="footer-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 19.5h20L12 2z" fill="#444"/>
+                </svg>
+                <span>© 2026 Tamizh. All rights reserved.</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/TamizhSK" target="_blank">GitHub</a>
+                <a href="https://t.me/your_bot_username" target="_blank">Telegram</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
